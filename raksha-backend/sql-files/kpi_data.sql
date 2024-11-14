@@ -1,0 +1,3 @@
+USE rakshdata;
+
+INSERT INTO rakshdata.kpi_data (period, revenue, target_revenue, revenue_per_customer, target_revenue_per_customer, customers, target_customers, acquisition_cost, target_acquisition_cost, promoters_percentage, passives_percentage, detractors_percentage, due_date) VALUES ('Q4 2023', 2180000, 2325000, 1987, 2500, 309, 300, 372, 333, 50.00, 30.00, 20.00, '2024-12-31'), ('Q3 2023', 2000000, 2150000, 1900, 2400, 280, 300, 390, 350, 48.00, 32.00, 20.00, '2024-09-30'), ('Q2 2023', 1950000, 2100000, 1800, 2300, 260, 300, 385, 340, 52.00, 28.00, 20.00, '2024-06-30'), ('Q1 2023', 1850000, 2000000, 1750, 2250, 240, 300, 400, 360, 49.00, 31.00, 20.00, '2024-03-31');

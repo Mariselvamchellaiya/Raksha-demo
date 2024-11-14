@@ -1,0 +1,9 @@
+scp -i "../ssh-keys/raksha-business-backend.pem" -r Backend/* ec2-user@ec2-16-171-43-177.eu-north-1.compute.amazonaws.com:~/raksha-backend
+
+cd d:
+
+ls
+
+ssh -i "../ssh-keys/raksha-business-backend.pem" ec2-user@ec2-16-171-43-177.eu-north-1.compute.amazonaws.com
+
+uvicorn main:app --reload --host 0.0.0.0 --port 8000
